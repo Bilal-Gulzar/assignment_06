@@ -30,10 +30,10 @@ export default function Herosection() {
             taught by expert instructors.
           </p>
           <div className="flex gap-3 mt-10 ">
-            <button className="px-4  text-neutral font-[400] py-2.5 bg-primary xs:text-xs text-[16px] rounded-[5px] ">
+            <button className="px-4  text-neutral font-[400] py-2.5 bg-primary xs:text-sm text-[16px] rounded-[5px] ">
               Start learning now
             </button>
-            <button className="font-[400] xs:text-xs px-4 text-[16px] border border-primary py-2.5 rounded-[5px]">
+            <button className="font-[400] xs:text-sm px-4 text-[16px] border border-primary py-2.5 rounded-[5px]">
               Explore Courses
             </button>
           </div>
