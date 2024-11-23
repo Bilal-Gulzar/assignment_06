@@ -47,13 +47,18 @@ export default function Herosection() {
           Trusted by the world's best companies
           <br /> [social proof to build credibility]
         </p>
-        <div className="md:block hidden w-[880px]  mt-12 ">
-          <Image src="/logos.png" width={880} height={880} alt="logos" />
+        <div className="md:flex hidden w-[880px] mt-12 ">
+          <Image src="/AirbnbLogo.png" width={880} height={880} alt="logos" />
+          <Image src="/Airbnbloog.png" width={880} height={880} alt="logos" />
+          <Image src="/AirbnbLo0go.png" width={880} height={880} alt="logos" />
+          <Image src="/AirbnbLogo1.png" width={880} height={880} alt="logos" />
+          <Image src="/AirbnbLogo2.png" width={880} height={880} alt="logos" />
+          <Image src="/AirbnbLogo3.png" width={880} height={880} alt="logos" />
         </div>
-        <div className="mt-12 md:hidden flex gap-5 max-w-[800px]  sm:px-3">
+        <div className="mt-12 md:hidden flex justify-center gap-3 sm:gap-5 max-w-[800px] px-0.5 sm:px-3">
           <div>
             <Image
-              src="/Airbnb Logo.jpg"
+              src="/AirbnbLogo.png"
               alt="Airbnb Logo"
               width={500}
               height={500}
@@ -61,7 +66,7 @@ export default function Herosection() {
           </div>
           <div>
             <Image
-              src="/Airbnb loog.jpg"
+              src="/Airbnbloog.png"
               alt="Airbnb log"
               width={500}
               height={500}
@@ -69,7 +74,7 @@ export default function Herosection() {
           </div>
           <div>
             <Image
-              src="/Airbnb Lo0go.jpg"
+              src="/AirbnbLo0go.png"
               alt="Airbnb log"
               width={500}
               height={500}
