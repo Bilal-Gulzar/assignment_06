@@ -166,7 +166,7 @@ export default function Home() {
                   Suspendisse varius enim in eros.
                 </p>
               </div>
-              <div className="flex lg:px-0 px-5  items-center gap-5">
+              <div className="flex lg:px-0 px-5  items-center gap-7">
                 <button className="w-[117px] border-primary  h-[40px] rounded-[5px] border">
                   Enroll Now
                 </button>
@@ -193,7 +193,7 @@ export default function Home() {
                   Suspendisse varius enim in eros.
                 </p>
               </div>
-              <div className="flex  items-center gap-5 px-5">
+              <div className="flex  items-center gap-7 px-5">
                 <button className="w-[117px] border-primary  h-[40px] rounded-[5px] border">
                   Enroll Now
                 </button>
@@ -220,7 +220,7 @@ export default function Home() {
                   Suspendisse varius enim in eros.
                 </p>
               </div>
-              <div className="flex  items-center gap-5 px-5 lg:ps-5">
+              <div className="flex  items-center gap-7 px-5 lg:ps-5">
                 <button className="w-[117px] border-primary  h-[40px] rounded-[5px] border">
                   Enroll Now
                 </button>
@@ -245,7 +245,7 @@ export default function Home() {
                   Suspendisse varius enim in eros.
                 </p>
               </div>
-              <div className="flex lg:px-0 px-5  items-center gap-5">
+              <div className="flex lg:px-0 px-5  items-center gap-7">
                 <button className="w-[117px] border-primary  h-[40px] rounded-[5px] border">
                   Enroll Now
                 </button>
@@ -270,7 +270,7 @@ export default function Home() {
                   Suspendisse varius enim in eros.
                 </p>
               </div>
-              <div className="flex  items-center gap-5 px-5">
+              <div className="flex  items-center gap-7 px-5">
                 <button className="w-[117px] border-primary  h-[40px] rounded-[5px] border">
                   Enroll Now
                 </button>
@@ -303,7 +303,7 @@ export default function Home() {
                   Suspendisse varius enim in eros.
                 </p>
               </div>
-              <div className="flex  items-center gap-5 px-5 lg:ps-5">
+              <div className="flex  items-center gap-7 px-5 lg:ps-5">
                 <button className="w-[117px] border-primary  h-[40px] rounded-[5px] border">
                   Enroll Now
                 </button>
