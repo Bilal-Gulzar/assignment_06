@@ -48,7 +48,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className='px-5 py-7 lg:hidden flex justify-between items-center border-b border-primary'>
+      <div className='px-6 py-7 lg:hidden flex justify-between items-center border-b border-primary'>
         <div className='min-w-[130px]'>
           <Image src="/logo.png" alt="logo" width={130} height={130} />
         </div>

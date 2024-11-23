@@ -149,8 +149,14 @@ export default function Home() {
         <div>
           <div className="grid  items-center sm:grid-cols-2 px-5 lg:px-0 lg:grid-cols-3 mt-20 justify-center gap-9">
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div>
-                <Image src="/img4.jpg" alt="courses" width={600} height={600} />
+              <div className="w-full h-[260px]">
+                <Image
+                  src="/img4.jpg"
+                  alt="courses"
+                  width={600}
+                  height={600}
+                  className="w-full h-[260px]"
+                />
               </div>
               <div className="text-[14px] flex items-center px-5 lg:ps-0  justify-between font-[600]">
                 <p>Design</p>
@@ -174,8 +180,14 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div>
-                <Image src="/img3.jpg" alt="courses" width={600} height={600} />
+              <div className="w-full h-[260px]">
+                <Image
+                  src="/img3.jpg"
+                  alt="courses"
+                  width={600}
+                  height={600}
+                  className="w-full h-[260px]"
+                />
               </div>
               <div className="text-[14px] flex items-center px-5  justify-between font-[600]">
                 <p>Programmimg</p>
@@ -201,8 +213,14 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div>
-                <Image src="/img2.jpg" alt="courses" width={600} height={600} />
+              <div className="w-full h-[260px]">
+                <Image
+                  src="/img2.jpg"
+                  alt="courses"
+                  width={600}
+                  height={600}
+                  className="w-full h-[260px]"
+                />
               </div>
               <div className="text-[14px] flex items-center  px-5 lg:ps-5 lg:pe-0  justify-between font-[600]">
                 <p>Business</p>
@@ -228,8 +246,14 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div>
-                <Image src="/img7.jpg" alt="courses" width={600} height={600} />
+              <div className="w-full h-[260px]">
+                <Image
+                  src="/img7.jpg"
+                  alt="courses"
+                  width={600}
+                  height={600}
+                  className="w-full h-[260px]"
+                />
               </div>
               <div className="text-[14px] flex items-center  lg:px-0 px-5 lg:pe-5 justify-between font-[600]">
                 <p>Art</p>
@@ -253,8 +277,14 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div>
-                <Image src="/img6.jpg" alt="courses" width={600} height={600} />
+              <div className="w-full h-[260px]">
+                <Image
+                  src="/img6.jpg"
+                  alt="courses"
+                  width={600}
+                  height={600}
+                  className="w-full h-[260px]"
+                />
               </div>
               <div className="text-[14px] flex items-center px-5  justify-between font-[600]">
                 <p>Law</p>
@@ -282,7 +312,7 @@ export default function Home() {
                 <Image
                   src="/img5.jpg"
                   alt="courses"
-                  width={800}
+                  width={600}
                   height={600}
                   className="w-full h-full object-fill"
                 />
@@ -585,32 +615,32 @@ export default function Home() {
             </div>
           </div>
         </div>
-       </section>
-        <section className="flex lg:flex-row flex-col items-center gap-10 sm:gap-7 justify-between px-20 sm:mt-52 mt-12">
-          <div className="sm:text-start text-center space-y-4">
-            <h2 className="text-[18px] font-[600] w-[287px] sm:w-full">
-              Subscribe to our newsletter
-            </h2>
-            <p className="text-[16px] w-[287px] sm:w-full">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+      </section>
+      <section className="flex lg:flex-row flex-col items-center gap-10 sm:gap-7 justify-between px-20 sm:mt-52 mt-12">
+        <div className="sm:text-start text-center space-y-4">
+          <h2 className="text-[18px] font-[600] w-[287px] sm:w-full">
+            Subscribe to our newsletter
+          </h2>
+          <p className="text-[16px] w-[287px] sm:w-full">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div>
+          <div className=" text-[16px] flex sm:flex-row flex-col gap-5 items-center ">
+            <input
+              type="email"
+              autoComplete="off"
+              placeholder="Enter your email"
+              className=" w-[87vw] sm:w-[265px] h-[48px] rounded-[5px] border border-primary px-4 placeholder:text-primary"
+            />
+            <button className="w-full sm:w-[119px] px-5 h-[48px] rounded-[5px] border border-primary">
+              Subscribe
+            </button>
           </div>
-          <div>
-            <div className=" text-[16px] flex sm:flex-row flex-col gap-5 items-center ">
-              <input
-                type="email"
-                autoComplete="off"
-                placeholder="Enter your email"
-                className=" w-[87vw] sm:w-[265px] h-[48px] rounded-[5px] border border-primary px-4 placeholder:text-primary"
-              />
-              <button className="w-full sm:w-[119px] px-5 h-[48px] rounded-[5px] border border-primary">
-                Subscribe
-              </button>
-            </div>
-              <p className="leading-[18px] mt-4 sm:text-start text-center text-[12px]">
-                By subscribing you agree to with our Privacy Policy
-              </p>
-          </div>
+          <p className="leading-[18px] mt-4 sm:text-start text-center text-[12px]">
+            By subscribing you agree to with our Privacy Policy
+          </p>
+        </div>
       </section>
     </div>
   );
