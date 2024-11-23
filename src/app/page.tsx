@@ -19,7 +19,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="my-12">
+    <div className="my-12 overflow-x-hidden">
       <section>
         <div className="flex flex-col gap-8 px-7">
           <h2 className="font-[700] text-[32px] leading-[41px] sm:text-[48px] text-center sm:leading-[57.6px]">
@@ -149,13 +149,13 @@ export default function Home() {
         <div>
           <div className="grid  items-center sm:grid-cols-2 px-5 lg:px-0 lg:grid-cols-3 mt-20 justify-center gap-9">
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div className="w-full h-[260px]">
+              <div className="w-full h-[260px] rounded-[5px] lg:rounded-none">
                 <Image
                   src="/img4.jpg"
                   alt="courses"
                   width={600}
                   height={600}
-                  className="w-full h-[260px]"
+                  className="w-full h-[260px] rounded-[5px] lg:rounded-none"
                 />
               </div>
               <div className="text-[14px] flex items-center px-5 lg:ps-0  justify-between font-[600]">
@@ -180,13 +180,13 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div className="w-full h-[260px]">
+              <div className="w-full h-[260px] rounded-[5px] lg:rounded-none">
                 <Image
                   src="/img3.jpg"
                   alt="courses"
                   width={600}
                   height={600}
-                  className="w-full h-[260px]"
+                  className="w-full h-[260px] rounded-[5px] lg:rounded-none"
                 />
               </div>
               <div className="text-[14px] flex items-center px-5  justify-between font-[600]">
@@ -213,13 +213,13 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div className="w-full h-[260px]">
+              <div className="w-full h-[260px] rounded-[5px] lg:rounded-none">
                 <Image
                   src="/img2.jpg"
                   alt="courses"
                   width={600}
                   height={600}
-                  className="w-full h-[260px]"
+                  className="w-full h-[260px] rounded-[5px] lg:rounded-none"
                 />
               </div>
               <div className="text-[14px] flex items-center  px-5 lg:ps-5 lg:pe-0  justify-between font-[600]">
@@ -245,14 +245,14 @@ export default function Home() {
                 <div>$400</div>
               </div>
             </div>
-            <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div className="w-full h-[260px]">
+            <div className="bg-secondary max-w-[380px] sm:max-w-full  hidden sm:flex  flex-col gap-5 pb-7 rounded-[5px]">
+              <div className="w-full h-[260px] rounded-[5px] lg:rounded-none">
                 <Image
                   src="/img7.jpg"
                   alt="courses"
                   width={600}
                   height={600}
-                  className="w-full h-[260px]"
+                  className="w-full h-[260px] rounded-[5px] lg:rounded-none"
                 />
               </div>
               <div className="text-[14px] flex items-center  lg:px-0 px-5 lg:pe-5 justify-between font-[600]">
@@ -276,14 +276,14 @@ export default function Home() {
                 <div>$400</div>
               </div>
             </div>
-            <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div className="w-full h-[260px]">
+            <div className="bg-secondary max-w-[380px] sm:max-w-full  hidden sm:flex  flex-col gap-5 pb-7 rounded-[5px]">
+              <div className="w-full h-[260px] rounded-[5px] lg:rounded-none">
                 <Image
                   src="/img6.jpg"
                   alt="courses"
                   width={600}
                   height={600}
-                  className="w-full h-[260px]"
+                  className="w-full h-[260px] rounded-[5px] lg:rounded-none"
                 />
               </div>
               <div className="text-[14px] flex items-center px-5  justify-between font-[600]">
@@ -307,14 +307,14 @@ export default function Home() {
                 <div>$400</div>
               </div>
             </div>
-            <div className="bg-secondary max-w-[380px] sm:max-w-full  flex flex-col gap-5 pb-7 rounded-[5px]">
-              <div className="w-full h-[260px]">
+            <div className="bg-secondary max-w-[380px] sm:max-w-full hidden sm:flex flex-col gap-5 pb-7 rounded-[5px]">
+              <div className="w-full h-[260px] rounded-[5px] lg:rounded-none">
                 <Image
-                  src="/img5.jpg"
+                  src="/img5.png"
                   alt="courses"
                   width={600}
                   height={600}
-                  className="w-full h-full object-fill"
+                  className="w-full h-full object-fill rounded-[5px] lg:rounded-none"
                 />
               </div>
               <div className="text-[14px] flex items-center  px-5 lg:ps-5 lg:pe-0  justify-between font-[600]">
