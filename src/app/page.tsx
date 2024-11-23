@@ -310,7 +310,7 @@ export default function Home() {
             <div className="bg-secondary max-w-[380px] sm:max-w-full hidden sm:flex flex-col gap-5 pb-7 rounded-[5px]">
               <div className="w-full h-[260px] rounded-[5px] lg:rounded-none">
                 <Image
-                  src="/img5.png"
+                  src="/img.jpg"
                   alt="courses"
                   width={600}
                   height={600}
